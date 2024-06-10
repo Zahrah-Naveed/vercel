@@ -1,0 +1,51 @@
+/* SearchBar.css */
+
+.searchBarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+  }
+  
+  .recommendationSearchbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchBar {
+    display: flex;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    
+  }
+  
+  .searchIcon {
+    color: grey;
+    margin-right: 8px;
+  }
+  
+  .searchInput {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 200px;
+    color: black;
+  }
+  
+  .searchButton {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+  }
+  
+  .searchButton:hover {
+    color: rgb(68, 64, 64);
+  }
+  

@@ -1,0 +1,55 @@
+.recomm-start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Adjusted to fit content */
+    color: rgb(68, 64, 64); /* Grey color for text */
+    text-align: center; /* Center-align text within the container */
+}
+
+.recomm-info h2 {
+    margin: 0; /* Remove default margin */
+}
+
+.recomm-info .ask-away {
+    margin: 10px 0 0 0; /* Remove default margin */
+    font-size: 1em; /* Smaller font size */
+    font-weight: normal; /* Not bold */
+}
+.recomm-info .help {
+    margin: 10px 0 0 0; /* Remove default margin */
+    font-size: 1em; /* Smaller font size */
+    font-weight: normal; /* Not bold */
+}
+
+.recommendation-list {
+    margin: 10px 20px 0 20px; /* Reduce top margin to move it closer to the search bar */
+    padding-bottom: 60px; /* Add bottom padding to create space above the bottom navbar */
+}
+
+.recommendation-item {
+    padding: 10px; /* Add padding inside the container */
+    border: 1px solid #ccc; /* Add a border to the container */
+    border-radius: 5px; /* Round the corners of the container */
+    margin-bottom: 15px; /* Space between items */
+    background-color: #f9f9f9; /* Light background color for the container */
+}
+
+.recommendation-item h3 {
+    margin: 0 0 10px 0; /* Adjust margin to add space below the question */
+    padding-left: 20px; /* Indent the text from the left */
+}
+
+.recommendation-item p {
+    margin: 0; /* Remove default margin */
+    padding-left: 20px; /* Indent the text from the left */
+}
+.no-results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    color: rgb(68, 64, 64);
+    font-size: 1em;
+    text-align: center;
+}
